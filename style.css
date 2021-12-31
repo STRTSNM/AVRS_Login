@@ -1,0 +1,123 @@
+body{
+padding: 0;
+margin: 0;
+overflow-x: hidden;
+height: 100vh;
+height: 100%;
+background: rgb(2,0,36);
+background: linear-gradient(10000deg, rgba(2,0,36,1) 0%, rgba(14,26,82,1) 100%); /* this is to provide the linear gradient da. If you want , you can remove and replace it with a solid background instead. */
+justify-content: center;
+}
+
+title::selection{
+        background-color: #c2fff3;
+    color: #d169e0;
+}
+
+.heading{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.heading::selection{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    background-color: #c2fff3;
+    color: #d169e0;
+
+}
+
+
+iframe {
+  text-align: center;
+}
+
+
+.passwordField{
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #2dcca2;
+    margin: auto;
+    display: block;
+    margin-top : 20px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: lightblue;
+
+}
+
+.passwordField::selection{
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #2dcca2;
+    margin: auto;
+    display: block;
+    margin-top : 20px;
+    padding: 12px 20px;
+
+    background-color: #c2fff3;
+    color: #d169e0;
+}
+
+.usernameField{
+    text-align: center;
+    box-sizing: border-box;
+    margin: auto;
+    display: block;
+    margin-top : 50px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.usernameField::selection{
+    text-align: center;
+    box-sizing: border-box;
+    margin: auto;
+    display: block;
+    margin-top : 50px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: #c2fff3;
+    color: #d169e0;
+}
+
+.main{
+  margin: auto;
+  display: block;
+  align-items: center;
+}
+
+
+.loginbutton{
+  padding: 15px 45px;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #04AA6D;
+  color: #fff;
+  display: block;
+}
+.loginbutton:hover{
+    background-color: #14AA6D;
+}
+
+.loginbutton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.logo{
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.marque{
+    margin-top: 20px;
+    color: red;
+}
